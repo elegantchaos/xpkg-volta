@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-echo "Setup scripts go here"
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"

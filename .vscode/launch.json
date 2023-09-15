@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Debug xpkg-volta-xpkg-hooks",
+      "program": "${workspaceFolder:xpkg-volta}/.build/debug/xpkg-volta-xpkg-hooks",
+      "args": [],
+      "cwd": "${workspaceFolder:xpkg-volta}",
+      "preLaunchTask": "swift: Build Debug xpkg-volta-xpkg-hooks"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Release xpkg-volta-xpkg-hooks",
+      "program": "${workspaceFolder:xpkg-volta}/.build/release/xpkg-volta-xpkg-hooks",
+      "args": [],
+      "cwd": "${workspaceFolder:xpkg-volta}",
+      "preLaunchTask": "swift: Build Release xpkg-volta-xpkg-hooks"
+    }
+  ]
+}
